@@ -1,0 +1,17 @@
+{
+  "name": "js3-bootcamp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.3",
+    "lodash": "^4.17.21",
+    "parcel": "^2.9.3"
+  }
+}
