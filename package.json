@@ -1,6 +1,6 @@
 {
   "name": "js3-bootcamp",
-  "source": "src/index.html",
+  "source": "src/pages/index.html",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
