@@ -1,0 +1,1 @@
+{"mappings":"AAAA,QAAQ,GAAG,CAAC;AACZ,QAAQ,GAAG,CAAC","sources":["src/home.js"],"sourcesContent":["console.log('Hello world!');\r\nconsole.log(\"i'm from LDN\");"],"names":[],"version":3,"file":"index.87f81111.js.map","sourceRoot":"/__parcel_source_root/"}
