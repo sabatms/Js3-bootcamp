@@ -577,53 +577,11 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 },{}],"dVZgU":[function(require,module,exports) {
 /*console.log('Hello world!');
 console.log("i'm from LDN");
-*/ var _counter = require("./counter");
-console.log("salam");
-document.querySelector("button").addEventListener("click", (0, _counter.increase));
+*/ /*import { increase } from "./counter";
+console.log("salam")
+document.querySelector("button").addEventListener("click",increase);
 
-},{"./counter":"IWKMf"}],"IWKMf":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "increase", ()=>increase);
-let counter = localStorage.getItem("clicked") ? localStorage.getItem("clicked") : 0;
-if (localStorage.getItem("clicked")) counter = localStorage.getItem("clicked");
-console.log(counter);
-function increase() {
-    localStorage.setItem("clicked", counter);
-    counter++;
-    console.log("increased.", counter);
-}
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports) {
-exports.interopDefault = function(a) {
-    return a && a.__esModule ? a : {
-        default: a
-    };
-};
-exports.defineInteropFlag = function(a) {
-    Object.defineProperty(a, "__esModule", {
-        value: true
-    });
-};
-exports.exportAll = function(source, dest) {
-    Object.keys(source).forEach(function(key) {
-        if (key === "default" || key === "__esModule" || dest.hasOwnProperty(key)) return;
-        Object.defineProperty(dest, key, {
-            enumerable: true,
-            get: function() {
-                return source[key];
-            }
-        });
-    });
-    return dest;
-};
-exports.export = function(dest, destName, get) {
-    Object.defineProperty(dest, destName, {
-        enumerable: true,
-        get: get
-    });
-};
-
+*/ 
 },{}]},["41yKj","dVZgU"], "dVZgU", "parcelRequire6a6d")
 
 //# sourceMappingURL=index.0e79d6dd.js.map
