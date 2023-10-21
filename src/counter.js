@@ -1,4 +1,4 @@
-let counter = localStorage.getItem("clicked") ?(localStorage.getItem("clicked")): 0
+let counter = localStorage.getItem("clicked") ?(localStorage.getItem("clicked")):0
 
 if(localStorage.getItem("clicked")){
 
