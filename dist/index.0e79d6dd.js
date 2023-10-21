@@ -581,7 +581,8 @@ console.log("i'm from LDN");
 console.log("salam")
 document.querySelector("button").addEventListener("click",increase);
 
-*/ 
+*/ document.querySelector;
+
 },{}]},["41yKj","dVZgU"], "dVZgU", "parcelRequire6a6d")
 
 //# sourceMappingURL=index.0e79d6dd.js.map
