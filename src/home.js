@@ -1,5 +1,11 @@
-console.log('Hello world!');
+/*console.log('Hello world!');
 console.log("i'm from LDN");
-setTimeout(function(){
-          console.log("saba tahmasebi nezhad");
-},2000);
+*/
+
+/*import { increase } from "./counter";
+console.log("salam")
+document.querySelector("button").addEventListener("click",increase);
+
+*/
+
+document.querySelector
