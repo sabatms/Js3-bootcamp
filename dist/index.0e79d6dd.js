@@ -582,8 +582,17 @@ console.log("salam")
 document.querySelector("button").addEventListener("click",increase);
 
 */ //const btn = document.querySelector("button");
+const name = "sina";
 const btn = document.querySelector("#saba");
 const inp = document.querySelector("input[name = firstname]");
+// setTimeout(()=>{
+//           inp.value = name;
+//           btn.textContent ="send";
+// },2000);
+// setInterval(() =>{
+//   btn.classList.toggle("success");
+// },1000);
+btn.addEventListener("click");
 //console.log({ btn });
 //console.log(btn.textContent);
 console.log(inp.value);
